@@ -2,9 +2,6 @@ name: ClashX
 
 on: [push]
 
-env:
-  DEVELOPER_DIR: /Applications/Xcode_12.2.app
-
 jobs:
   build:
     runs-on: macOS-latest
